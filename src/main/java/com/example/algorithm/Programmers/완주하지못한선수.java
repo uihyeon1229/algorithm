@@ -15,9 +15,9 @@ public class 완주하지못한선수 {
         }
 
         for(String name : completion){
-            if(player.get(name)!=0){
+//            if(player.get(name)!=0){
                 player.put(name, player.get(name)-1);
-            }
+//            }
         }
 
         for(String key : player.keySet()){
